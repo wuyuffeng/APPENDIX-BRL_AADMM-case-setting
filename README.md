@@ -2,7 +2,7 @@
  The parameters and historical datasets of the case studies on energy sharing with 2, 10, 50 and 100 prosumers.
 
 # Overview  
-### This project is a instruction for the parameters and historical datasets of the case studies in our paper  _**"A Best Response Learning assisted Asynchronous ADMM for Real-Time Energy Sharing with Delay"**_.  
+This project is a instruction for the parameters and historical datasets of the case studies in our paper  ***"A Best Response Learning assisted Asynchronous ADMM for Real-Time Energy Sharing with Delay"***.  
 > _**2_Prosumers**_: The parameters and historical dataset of the case studies on energy sharing with 2 prosumers.  
 > _**10_Prosumers**_: The parameters and historical dataset of the case studies on energy sharing with 10 prosumers.  
 > _**50_Prosumers**_: The parameters and historical dataset of the case studies on energy sharing with 50 prosumers.  
@@ -11,15 +11,17 @@
 >Python 3  
 >Numpy  
 # Opening method
-### Take _**2_Prosumers**_ as an example, there are two type files. The _**Decision_Making_Model_Parameters.npy**_ is the parameters of prosumers' decision-making model. The _**pr_data i.xlsx**_ contains the data obtained by historical successful communication (Randomly generated).
+Take _**2_Prosumers**_ as an example, there are two type files. <br>
+The  ***"Decision_Making_Model_Parameters.npy"*** is the parameters of prosumers' decision-making model. <br>
+The ***"pr_data i.xlsx"***" contains the data obtained by historical successful communication (Randomly generated).<br>
 
-## Run the following code in Python to open the __**Decision_Making_Model_Parameters.npy**__.
+## Run the following code in Python to open the ***"Decision_Making_Model_Parameters.npy"***.
 ```Python
 import numpy as np
 dict_ = np.load('Decision_Making_Model_Parameters.npy',allow_pickle = True).item()
 ```
 # Parameters Description
-### Our data is structured in the form of a dictionary, where the meaning of different key is explained as follows:  
+### Our parameters are structured in the form of a dictionary, where the meaning of different keys are explained as follows:  
 
 >_**'Qi'**_ : It refers to the _**Q<sub>i</sub>**_ in formula (2a);  
 >_**'di'**_ : It refers to the _**d<sub>i</sub>**_ in formula (2a);   
@@ -29,12 +31,11 @@ dict_ = np.load('Decision_Making_Model_Parameters.npy',allow_pickle = True).item
 >_**'Di'**_ : It refers to the _**D<sub>i</sub>**_ in formula (2b);  
 
 # Historical dataset Description
-### Our data is structured in the form of a dictionary, where the meaning of different key is explained as follows:  
+### The historical dataset is recorded by .xlsx file, where the meaning of different columns is explained as follows:
 
->_**'E'**_ : It refers to the _**E**_ in formula (2c);  
->_**'Di'**_ : It refers to the _**D<sub>i</sub>**_ in formula (2c);  
->_**'Ai'**_ : It refers to the _**A<sub>i</sub>**_ in formula (2b);  
->_**'Bi'**_ : It refers to the _**B<sub>i</sub>**_ in formula (2b);  
->_**'Qi'**_ : It refers to the _**Q<sub>i</sub>**_ in formula (2a);  
->_**'di'**_ : It refers to the _**d<sub>i</sub>**_ in formula (2a);   
->_**'ci'**_ : It refers to the _**c<sub>i</sub>**_ in formula (2a);
+>_**'Resource 1'**_ :  It refers to the upper boundary of Resource 1 in the successful communication data (the lower boundary defaults to 0);  
+>_**'Resource 2'**_ :  It refers to the upper boundary of Resource 2 in the successful communication data (the lower boundary defaults to 0);    
+>_**'Price'**_ :       It refers to the shadow price (or multiplier lamda) in the successful communication data;   
+>_**'Demand'**_ :      It refers to the power demand (or _**D<sub>i</sub>**_) in the successful communication data;     
+>_**'virtual_var'**_ : It refers to the auxiliary variable _**y<sub>i,sh</sub>**_ in the successful communication data;  
+>_**'trade_volumn'**_ : It refers to the best response _**x<sub>i,sh</sub>**_ in the successful communication data;
