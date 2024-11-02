@@ -3,17 +3,17 @@
 
 # Overview  
 ### This project is a instruction for the parameters and historical datasets of the case studies in our paper  _**"A Best Response Learning assisted Asynchronous ADMM for Real-Time Energy Sharing with Delay"**_.  
-> _**2_Prosumers**_:The parameters and historical dataset of the case studies on energy sharing with 2 prosumers.  
-> _**10_Prosumers**_:The parameters and historical dataset of the case studies on energy sharing with 10 prosumers.  
-> _**50_Prosumers**_:The parameters and historical dataset of the case studies on energy sharing with 50 prosumers.  
-> _**100_Prosumers**_:The parameters and historical dataset of the case studies on energy sharing with 100 prosumers.
+> _**2_Prosumers**_: The parameters and historical dataset of the case studies on energy sharing with 2 prosumers.  
+> _**10_Prosumers**_: The parameters and historical dataset of the case studies on energy sharing with 10 prosumers.  
+> _**50_Prosumers**_: The parameters and historical dataset of the case studies on energy sharing with 50 prosumers.  
+> _**100_Prosumers**_: The parameters and historical dataset of the case studies on energy sharing with 100 prosumers.
 # Requirements
 >Python 3  
 >Numpy  
 # Opening method
 ### Take _**2_Prosumers**_ as an example, there are two type files. The _**Decision_Making_Model_Parameters.npy**_ is the parameters of prosumers' decision-making model. The _**pr_data i.xlsx**_ contains the data obtained by historical successful communication (Randomly generated).
 
-## Run the following code in Python to open the _**Decision_Making_Model_Parameters.npy**_.
+## Run the following code in Python to open the __**Decision_Making_Model_Parameters.npy**__.
 ```Python
 import numpy as np
 dict_ = np.load('Decision_Making_Model_Parameters.npy',allow_pickle = True).item()
