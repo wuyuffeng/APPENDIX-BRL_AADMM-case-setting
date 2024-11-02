@@ -1,5 +1,8 @@
 # BRL_AADMM-case-setting
- The parameters and historical datasets of the case studies on energy sharing with 2, 10, 50 and 100 prosumers.
+
+<div align="center">
+  <img src = "title figure.png"/>
+</div> 
 
 # Overview  
 This project is a instruction for the parameters and historical datasets of the case studies in our paper  ***"A Best Response Learning assisted Asynchronous ADMM for Real-Time Energy Sharing with Delay"***.  
@@ -7,6 +10,7 @@ This project is a instruction for the parameters and historical datasets of the 
 > _**10_Prosumers**_: The parameters and historical dataset of the case studies on energy sharing with 10 prosumers.  
 > _**50_Prosumers**_: The parameters and historical dataset of the case studies on energy sharing with 50 prosumers.  
 > _**100_Prosumers**_: The parameters and historical dataset of the case studies on energy sharing with 100 prosumers.
+Besides, the Appendix shown here, where the proofs of the Propositions are presented in detail.
 # Requirements
 >Python 3  
 >Numpy  
@@ -39,3 +43,14 @@ dict_ = np.load('Decision_Making_Model_Parameters.npy',allow_pickle = True).item
 >_**'Demand'**_ :      It refers to the power demand (or _**D<sub>i</sub>**_) in the successful communication data;     
 >_**'virtual_var'**_ : It refers to the auxiliary variable _**y<sub>i,sh</sub>**_ in the successful communication data;  
 >_**'trade_volumn'**_ : It refers to the best response _**x<sub>i,sh</sub>**_ in the successful communication data;
+
+# Appendix Description
+### The ***Appendix.pdf*** records the proofs of Proposition 1 and Proposition 3~7 and 3 as follows:
+
+>_**'Proposition 1'**_ : See (A1)-(A9) for details;  
+>_**'Proposition 3'**_ : See (A10)-(A12) for details;  
+>_**'Proposition 4'**_ : See (A13)-(A20) for details;  
+>_**'Proposition 5'**_ : See (A21)-(A24) for details;  
+>_**'Proposition 6'**_ : See (A25)-(A30) for details;  
+>_**'Proposition 5'**_ : See (A31)-(A50) for details;  
+
