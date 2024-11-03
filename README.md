@@ -5,12 +5,13 @@
 </div> 
 
 # Overview  
-This project is a instruction for the parameters and historical datasets of the case studies in our paper  ***"A Best Response Learning assisted Asynchronous ADMM for Real-Time Energy Sharing with Delay"***.  
+This project is a instruction for the ***parameters*** and ***historical datasets*** of the case studies in our paper  ***"A Best Response Learning assisted Asynchronous ADMM for Real-Time Energy Sharing with Delay"***. Besides, the ***Appendix*** shown here, where the proofs of the Propositions are presented in detail.  
+
 > _**2_Prosumers**_: The parameters and historical dataset of the case studies on energy sharing with 2 prosumers.  
 > _**10_Prosumers**_: The parameters and historical dataset of the case studies on energy sharing with 10 prosumers.  
 > _**50_Prosumers**_: The parameters and historical dataset of the case studies on energy sharing with 50 prosumers.  
 > _**100_Prosumers**_: The parameters and historical dataset of the case studies on energy sharing with 100 prosumers.
-Besides, the Appendix shown here, where the proofs of the Propositions are presented in detail.
+
 # Requirements
 >Python 3  
 >Numpy  
