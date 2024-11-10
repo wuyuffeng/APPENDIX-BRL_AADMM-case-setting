@@ -1,4 +1,4 @@
-# BRL_AADMM-case-setting
+# APPENDIX & BRL_AADMM-case-setting
 
 <div align="center">
   <img src = "title figure.png"/>
