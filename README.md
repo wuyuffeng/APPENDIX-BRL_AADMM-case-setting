@@ -50,8 +50,8 @@ dict_ = np.load('Decision_Making_Model_Parameters.npy',allow_pickle = True).item
 
 >_**'Proposition 1'**_ : See (A1)-(A9) for details;  
 >_**'Proposition 3'**_ : See (A10)-(A12) for details;  
->_**'Proposition 4'**_ : See (A13)-(A20) for details;  
->_**'Proposition 5'**_ : See (A21)-(A24) for details;  
->_**'Proposition 6'**_ : See (A25)-(A30) for details;  
->_**'Proposition 5'**_ : See (A31)-(A50) for details;  
+>_**'Proposition 5'**_ : See (A13)-(A20) for details;  
+>_**'Proposition 6'**_ : See (A21)-(A24) for details;  
+>_**'Proposition 7'**_ : See (A25)-(A30) for details;  
+>_**'Proposition 8'**_ : See (A31)-(A50) for details;  
 
