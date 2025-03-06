@@ -45,6 +45,15 @@ dict_ = np.load('Decision_Making_Model_Parameters.npy',allow_pickle = True).item
 >_**'virtual_var'**_ : It refers to the auxiliary variable _**y<sub>i,sh</sub>**_ in the successful communication data;  
 >_**'trade_volumn'**_ : It refers to the best response _**x<sub>i,sh</sub>**_ in the successful communication data;
 
+# heterogeneous prosumers Description
+### The heterogeneous prosumers is recorded in "two heterogeneous prosumers.npy" file, where the meaning of different parameters is explained as follows:
+>_**'Obj'**_ : It refers to the form of cost function. There are two value: Foursq (quartic function) and Twosq (quadratic function);  
+>_**'Con'**_ : It refers to the form of constraint function. There are two value: Twosq (quadratic function) and Linear (Linear function);  
+>When Obj is Twosq and Con is linear, the form is consistent with the description of parameter above;  
+>When Obj is Foursq, Qi and di refer to the coefficients of the quartic and quadratic terms in the cost function, respectively.
+>When Con is Linear, Ai and Bi refer to the coefficients of the quadratic and constant terms in the constraint function, respectively.
+
+
 # Appendix Description
 ### The ***Appendix.pdf*** records the proofs of Proposition 1 and Proposition 3~7 and 3 as follows:
 
